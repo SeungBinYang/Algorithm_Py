@@ -1,18 +1,9 @@
-list1 = []
-list2 = []
-value = 12
-hap = 0
-for i in range(0,4):
-    for k in range(0,3):
-        list1.append(value)
-        hap += value
-        value -= 1
-    list2.append(list1)
-    list1 = []
+singer = {}
 
-for i in range(0, 4):
-    for k in range(0, 3):
-        print("%3d" % list2[i][k], end=" ")
-    print(" ")
+singer['이름']='트와이스'
+singer['구성원 수'] = 9
+singer['데뷔'] = '서바이벌 식스틴'
+singer['대표곡'] = 'SIGNAL'
 
-print("합은 %d" % hap)
+for k in singer.keys():
+    print('%s --> %s' % (k, singer[k]))
