@@ -1,4 +1,5 @@
 # 함수 선언 부분 #
+
 def multi(v1, v2):
     retList = []    # 반환할 리스트
     res1 = v1 + v2
@@ -8,10 +9,12 @@ def multi(v1, v2):
     return retList
 
 # 전역 변수 선언 부분 #
+
 myList = []
 hap, sub = 0,0
 
 # 메인 코드 부분 #
+
 myList = multi(100, 200)
 hap = myList[0]
 sub = myList[1]

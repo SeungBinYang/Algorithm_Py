@@ -1,7 +1,6 @@
 katok = [] # 빈 배열
 
 def add_data(friend):
-
     katok.append(None)
     kLen = len(katok)
     katok[kLen-1] = friend
